@@ -26,13 +26,14 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 body { 
   font: normal .80em arial, sans-serif;
-  background: #F0EAE0 url(../images/pattern.png) repeat fixed;
+  background: #F0EAE0 url(../images/transparent.png) repeat fixed;
   color: #403838;
 }
 
-p { 
-  padding: 0 0 20px 0;
-  line-height: 1.7em;
+p {
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+	font-family: arial, sans-serif;
 }
 
 img { 
@@ -164,8 +165,10 @@ ol li {
 }
 
 #logo h1 a {
-  text-decoration: none;
-  color: #222;
+	text-decoration: none;
+	color: #222;
+	font-size: 30px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 #logo h1 a .logo_colour { 
