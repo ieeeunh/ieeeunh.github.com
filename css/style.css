@@ -26,7 +26,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 body { 
   font: normal .80em arial, sans-serif;
-  background: #F0EAE0 url(../images/transparent.png) repeat fixed;
+  background: #F0EAE0 url(../images/bg.gif) repeat fixed;
   color: #403838;
 }
 
@@ -47,17 +47,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0 5px 0;
 }
 
-h1 { 
-  color: #333;
-  font: 250% 'News Cycle', arial, sans-serif;
-  padding: 0 0 16px 0;
+h1 {
+	color: #333;
+	font: 250% 'News Cycle', arial, sans-serif;
+	padding: 0 0 16px 0;
+	font-family: "News Cycle", arial, sans-serif;
 }
 
-h2 { 
-  font: normal 250% 'Jenna Sue', arial, sans-serif;
-  color: #C3D303;  
-  margin: 0 0 0 0;
-  padding: 10px 0 5px 0;
+h2 {
+	color: #00F;
+	margin: 0 0 0 0;
+	padding: 10px 0 5px 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 150%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
 }
 
 h3 { 
@@ -151,12 +156,13 @@ ol li {
   height: 150px;
 }
 
-#logo { 
-  width: 900px;
-  position: relative;
-  height: 50px;
-  background: transparent;
-  padding: 5px 25px;
+#logo {
+	width: 900px;
+	position: relative;
+	height:100px;
+	background: transparent;
+	padding: 5px 25px;
+	font-family: arial, sans-serif;
 }
 
 #logo h1 {
@@ -166,26 +172,28 @@ ol li {
 
 #logo h1 a {
 	text-decoration: none;
-	color: #222;
+	color: #FFF;
 	font-size: 30px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 #logo h1 a .logo_colour { 
-  color: #E5BC3B;
+  color: #0000EE;
 }
 
-#logo a:hover .logo_colour { 
-  color: #222;
-  text-decoration: none;
+#logo a:hover .logo_colour {
+	color: #FF0;
+	text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-nav { 
-  float: left;
-  height: 50px;
-  width: 950px;
-  margin: 1px auto 0 auto;
-  background: url(../images/transparent.png);
+nav {
+	float: left;
+	height: 50px;
+	width: 950px;
+	margin: 1px auto 0 auto;
+	background: url(../images/transparent.png);
+	font-family: arial, sans-serif;
 } 
 
 #site_content { 
@@ -230,12 +238,14 @@ nav {
 
 /* styling for the slideshow on the homepage */
 ul.slideshow {
-  width: 706px;
-  height: 316px;
-  overflow: hidden;
-  position: relative;
-  margin: 0;
-  padding: 0;}
+	width: 706px;
+	height: 316px;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
   
 ul.slideshow li {
   position: absolute;
@@ -452,8 +462,9 @@ ul ul span.sf-arrow {
 }
 
 /* theming the menu */
-ul#nav { 
-  float: left;
+ul#nav {
+	float: left;
+	font-family: arial, sans-serif;
 }
 
 ul#nav ul { 
