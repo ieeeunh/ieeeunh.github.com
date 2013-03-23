@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>IEEE Univeristy of New Haven 2.0</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <<a href="index.html"><img width="900" height="100" src="images/ieeeunhlogo.png" alt="logo" /></a>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Projects</a></li>
+          <li><a href="page.html">About</a></li>
+          <li><a href="another_page.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h1>Computer Science Project</h1>
+          <h2>New Website Launched</h2>
+          <p>Website Build</p>
+        </div>
+        <div class="sidebar">
+          <h1>Computer Engineering Project</h1>
+          <h2>Hardware</h2>
+          <p>Messing around with Rasberry Pi.</p>
+        </div>
+        <div class="sidebar">
+          <h1>Electrical Engineering Project</h1>
+          <h2>Tesla Coil</h2>
+          <p>Building a Tesla Coil</p>
+        </div>
+      </div>
+      {{ content }}
+    </div>
+    <footer>
+      <p><a href="index.html">Home</a> | <a href="examples.html">Projects</a> | <a href="page.html">About</a> | <a href="another_page.html">Contact Us</a></p>
+      <p>Copyright &copy; IEEE University of New Haven | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
