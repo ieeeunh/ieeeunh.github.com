@@ -237,7 +237,7 @@ nav {
 }
 
 /* styling for the slideshow on the homepage */
-ul.slideshow {
+ul.slideshow, ul.noslideshow {
 	width: 706px;
 	height: 316px;
 	overflow: hidden;
