@@ -1,31 +1,37 @@
-body,
-#inner,
-footer {
+body {
   font-size: 14pt;
   line-height: 1.414em;
   margin: 0 auto;
-  background: #003366;
-}
-img {
-  max-width: 75.398%;
-  padding: 1.414em;
+  background-color: #003366;
 }
 footer {
+  background-color: #003366;
   color: #ffffea;
   padding: 1.414em;
   text-align: center;
   width: 100%;
 }
-#content {
+#outer {
   background-color: #ffffea;
   margin: 1.414em auto;
   padding: 1.414em;
+  width: 75.398%;
+  border-radius: 0.3535em;
 }
-#outer {
+img {
+  max-width: 75.398%;
+  padding: 1.414em;
+}
+#content {
   margin: 1.414em auto;
   padding: 1.414em;
-  width: 75.398%;
 }
 .center {
   text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
 }

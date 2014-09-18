@@ -6,42 +6,39 @@
 @line-height: @spacing;
 // pi*24
 @page-width: 75.398%;
-// bright yellow
-@background-color: #ffffea;
 // UNH blue
-@color: #036;
+@background-color: #036;
+// bright yellow
+@color: #ffffea;
 
-body, #inner, footer {
+body {
 	font-size: @font-size;
 	line-height: @line-height;
 	margin: 0 auto;
-	background: @color;
+	background-color: @background-color;
 }
 
-img {
-	max-width: @page-width;
-	padding: @spacing;
-}
 
 footer {
-	color: @background-color;
+	background-color: @background-color;
+	color: @color;
 	padding: @spacing;
 	text-align: center;
 	width: 100%;
 }
 
-#content {
-	background-color: @background-color;
-	margin: @spacing auto;
-	padding: @spacing;
-}
-
 #outer {
+	background-color: @color;
 	margin: @spacing auto;
 	padding: @spacing;
 	width: @page-width;
+	border-radius: @spacing / 4;
 }
 
-.center {
-	text-align: center;
-}
+img { max-width: @page-width; padding: @spacing; }
+#content { margin: @spacing auto; padding: @spacing; }
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+
+// vim: noet ts=4 sw=4 tw=79 ft=css
