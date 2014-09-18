@@ -1,0 +1,47 @@
+// A little larger than normal
+@font-size: 14pt;
+// sqrt(2)
+@spacing: 1.414em;
+// ...
+@line-height: @spacing;
+// pi*24
+@page-width: 75.398%;
+// bright yellow
+@background-color: #ffffea;
+// UNH blue
+@color: #036;
+
+body, #inner, footer {
+	font-size: @font-size;
+	line-height: @line-height;
+	margin: 0 auto;
+	background: @color;
+}
+
+img {
+	max-width: @page-width;
+	padding: @spacing;
+}
+
+footer {
+	color: @background-color;
+	padding: @spacing;
+	text-align: center;
+	width: 100%;
+}
+
+#content {
+	background-color: @background-color;
+	margin: @spacing auto;
+	padding: @spacing;
+}
+
+#outer {
+	margin: @spacing auto;
+	padding: @spacing;
+	width: @page-width;
+}
+
+.center {
+	text-align: center;
+}
