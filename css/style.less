@@ -1,0 +1,45 @@
+// A little larger than normal
+@font-size: 14pt;
+// sqrt(2)
+@spacing: 1.414em;
+// ...
+@line-height: @spacing;
+// pi*24
+@page-width: 75.398%;
+// UNH blue
+@background-color: #036;
+// bright yellow
+@color: #ffffea;
+
+body {
+	font-size: @font-size;
+	line-height: @line-height;
+	margin: 0 auto;
+	background-color: @background-color;
+}
+
+
+footer {
+	background-color: @background-color;
+	color: @color;
+	padding: @spacing;
+	text-align: center;
+	width: 100%;
+}
+
+#outer {
+	background-color: @color;
+	margin: @spacing auto;
+	padding: @spacing;
+	width: @page-width;
+	border-radius: @spacing / 4;
+}
+
+img { max-width: @page-width; padding: @spacing; }
+#content { margin: @spacing auto; padding: @spacing; }
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+.navbar { background-color: @color; }
+
+// vim: noet ts=4 sw=4 tw=79 ft=css

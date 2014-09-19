@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="360"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="unh.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#8d83ff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="215.64301"
+     inkscape:cy="170.25637"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="img"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.857125,-680.93359)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <image
+       y="680.93359"
+       x="12.857125"
+       id="image2993"
+       xlink:href="file:///home/c/Downloads/University_of_New_Haven.png"
+       height="360"
+       width="500" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc33;fill-opacity:1;stroke:none;font-family:Sans"
+       x="248.21214"
+       y="287.26901"
+       id="text2997"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2999"
+         x="252.21214"
+         y="287.26901"
+         style="font-size:44px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;letter-spacing:8px;text-anchor:middle;fill:#ffcc33;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Heavy"
+         dx="0"
+         dy="-6">UNIVERSITY OF</tspan><tspan
+         sodipodi:role="line"
+         x="250.71214"
+         y="365.68314"
+         id="tspan3001"
+         style="font-size:68px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;letter-spacing:5px;word-spacing:0px;text-anchor:middle;fill:#ffcc33;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Heavy"
+         dy="-16"
+         dx="3 0 0 -3">NEW HAVEN</tspan></text>
+    <path
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#003366;fill-opacity:1;stroke:none;font-family:Sans"
+       d="m 184.75,10.28125 0,79.875 C 216.6507,82.023752 255.38158,76.359273 287.12849,73.403712 L 237.4375,10.28125 z m 121.40625,0 0,61.53125 67.5625,0.125 0,-61.65625 -14.375,0 z m 129.1875,0 2.5e-4,63.875 0,11.56275 -58.18775,0 C 336.61851,87.078686 309.77444,87.907079 246.5,105.34375 l 59.65625,87.46875 53.1875,0 14.375,0 0,-73.84375 61.625,0 0,73.84375 56.65625,0 0,-182.53125 z M 237.8125,107.8125 c -18.16603,5.35706 -35.97407,11.65624 -53.0625,18.75 l 0,66.25 53.0625,0 z"
+       id="text3022"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc" />
+    <path
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc33;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       d="m 11.035012,10.28125 0,108.8125 c 0,8.96491 1.763651,19.28521 5.25,30.90625 1.201026,4.01889 2.980353,7.95342 5.3125,11.84375 15.456823,-10.06584 35.390033,-21.25024 51.60311,-29.52031 -2.904558,-3.48634 -5.88436,-14.89995 -5.88436,-20.45368 l 0,-101.58851 z m 116.162118,0 0,97.65625 c 18.55838,-6.81541 37.35866,-12.645228 56.25,-17.499998 l 0,-80.156252 z m 55.9375,116.875 c -42.36692,17.74521 -80.16674,40.5976 -107.593749,67.46875 8.947455,0.93576 17.300083,1.4375 24.999999,1.4375 15.35632,0 28.51158,-2.02637 39.46875,-6.09375 7.88558,-2.90527 15.39241,-7.95507 22.53125,-15.09375 7.2215,-7.22165 12.492,-15.57907 15.8125,-25.125 2.54561,-7.20259 4.1397,-14.74086 4.78125,-22.59375 z"
+       id="text3022-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccscccccccccscccc" />
+  </g>
+</svg>
