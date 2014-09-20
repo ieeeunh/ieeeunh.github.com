@@ -31,7 +31,7 @@ title: IEEE University Of New Haven 2.0
  <div class="post">
   <h2>{{ post.title }}</h2>
   {{ post.content }}
-  <div class="date"><time>{{ post.date | date_to_string }}</time></div>
+  <div class="date">{{ page.date date_to_long_string }}</div>
   <p><small><a href="{{ post.url }}">Permalink to this item.</a></small>
  </div>
  {% endfor %}
