@@ -1,77 +1,97 @@
-// A little larger than normal
-@font-size: 14pt;
-// sqrt(2)
-@spacing: 1.414em;
-// ...
+@font-size: 14pt;      // A little larger than normal
+@spacing: 1.414em;     // sqrt(2)
+@page-width: 75.398%;  // pi*24
+@pale-yellow: #ffffea; // Plan 9 pale yellow
+@unh-blue: #036;       // UNH blue
+@unh-yellow: #fc3;     // UNH yellow
+
 @line-height: @spacing;
-// pi*24
-@page-width: 75.398%;
-// UNH blue
-@background-color: #036;
-// UNH yellow
-@yellow: #fc3;
-// bright yellow
-@color: #ffffea;
+@background-color: @unh-blue;
 
 body {
+	background-color: @background-color;
 	font-size: @font-size;
 	line-height: @line-height;
 	margin: 0 auto;
-	background-color: @background-color;
 }
 
-#outer, footer {
-	border-radius: @spacing / 4;
-	padding: @spacing;
+footer, .navbar {
+	background-color: @unh-blue;
+	color: @pale-yellow;
 }
 
 footer {
-	background-color: @background-color;
-	color: @color;
 	text-align: center;
 	width: 100%;
 }
 
-#outer {
-	background-color: @color;
-	margin: @spacing auto;
+hr {
+	background-color: @unh-blue;
+	color: @unh-blue;
+	height: 2px;
 	width: @page-width;
 }
 
-img { max-width: @page-width; padding: @spacing; }
-#content { margin: @spacing auto; padding: @spacing; }
-.center { text-align: center; }
-.left { text-align: left; }
-.right { text-align: right; }
-.navbar {
-	background-color: @background-color;
-	color: @color;
-	.nav > li > a {
-		color: @color;
-	}
-	.nav > li > a:hover {
-		color: @yellow;
-	}
-	.navbar-header a {
-		color: @color;
-	}
-	.navbar-header a:hover {
-		color: @yellow;
-	}
+img {
+	max-width: @page-width;
+	padding: @spacing;
 }
 
 small {
 	font-size: @font-size / 2;
 }
 
-ul.slideshow {
+.navbar {
+	.navbar-header a {
+   		color: @pale-yellow;
+   	}
+	.navbar-header a:hover {
+   		color: @unh-yellow;
+   	}
+	.nav > li > a {
+   		color: @pale-yellow;
+   	}
+	.nav > li > a:hover {
+   		color: @unh-yellow;
+   	}
+}
+
+.slideshow {
+	list-style: none;
 	position: relative;
 	width: 706px;
 	height: 316px;
-	list-style: none;
 	li {
-		position: absolute;
-	}
+   		position: absolute;
+   	}
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+#content {
+	margin: @spacing auto;
+	padding: 0 @spacing;
+}
+
+#outer {
+	background-color: @pale-yellow;
+	margin: @spacing auto;
+	padding: @spacing;
+}
+
+#outer, footer {
+	border-radius: @spacing / 4;
+	padding: @spacing;
 }
 
 // vim: noet ts=4 sw=4 tw=79 ft=css

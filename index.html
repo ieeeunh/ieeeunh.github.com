@@ -14,6 +14,7 @@ title: IEEE University Of New Haven 2.0
     <img src="images/board.jpg" alt="Board Logo" />
   </div>
 </div>
+
 <hr/>
 
 <p>This is the home page of the <strong>University Of New Haven</strong>
@@ -25,6 +26,8 @@ title: IEEE University Of New Haven 2.0
  </a>
 </div>
 
+<hr/>
+
 <div class="posts">
  {% for post in site.posts %}
  <div class="post">
@@ -33,5 +36,6 @@ title: IEEE University Of New Haven 2.0
   <div class="date">{{ post.date | date_to_long_string }}</div>
   <p><small><a href="{{ post.url }}">Permalink to this item.</a></small>
  </div>
+ <hr/>
  {% endfor %}
 </div>
