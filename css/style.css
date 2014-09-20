@@ -56,3 +56,12 @@ img {
 small {
   font-size: 7pt;
 }
+ul.slideshow {
+  position: relative;
+  width: 706px;
+  height: 316px;
+  list-style: none;
+}
+ul.slideshow li {
+  position: absolute;
+}
