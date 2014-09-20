@@ -15,7 +15,8 @@ title: IEEE University Of New Haven 2.0
   </div>
 </div>
 <hr/>
-<h1>IEEE University Of New Haven</h1>
+
+<h1>{{ page.title }}</h1>
 <p>This is the home page of the <strong>University Of New Haven</strong>
    IEEE club! Welcome!
 
@@ -25,14 +26,13 @@ title: IEEE University Of New Haven 2.0
  </a>
 </div>
 
-<h1>Computer Science Project</h1>
-<h2>New Website Launched</h2>
-<p>Website Build</p>
-
-<h1>Computer Engineering Project</h1>
-<h2>Hardware</h2>
-<p>Messing around with Raspberry Pi.</p>
-
-<h1>Electrical Engineering Project</h1>
-<h2>Tesla Coil</h2>
-<p>Building a Tesla Coil</p>
+<div class="posts">
+ {% for post in site.posts %}
+ <div class="post">
+  <h2>{{ post.title }}</h2>
+  {{ post.content }}
+  <div class="date"><time>{{ post.date | date_to_string }}</time></div>
+  <p><small><a href="{{ post.url }}">Permalink to this item.</a></small>
+ </div>
+ {% endfor %}
+</div>

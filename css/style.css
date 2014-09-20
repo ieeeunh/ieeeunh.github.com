@@ -4,19 +4,21 @@ body {
   margin: 0 auto;
   background-color: #003366;
 }
+#outer,
+footer {
+  border-radius: 0.3535em;
+  padding: 1.414em;
+}
 footer {
   background-color: #003366;
   color: #ffffea;
-  padding: 1.414em;
   text-align: center;
   width: 100%;
 }
 #outer {
   background-color: #ffffea;
   margin: 1.414em auto;
-  padding: 1.414em;
   width: 75.398%;
-  border-radius: 0.3535em;
 }
 img {
   max-width: 75.398%;
@@ -50,6 +52,9 @@ img {
 }
 .navbar .navbar-header a:hover {
   color: #ffcc33;
+}
+small {
+  font-size: 7pt;
 }
 ul.slideshow {
   position: relative;

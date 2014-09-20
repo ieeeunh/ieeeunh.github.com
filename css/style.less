@@ -9,7 +9,7 @@
 // UNH blue
 @background-color: #036;
 // UNH yellow
-@yellow: #FFCC33;
+@yellow: #fc3;
 // bright yellow
 @color: #ffffea;
 
@@ -20,11 +20,14 @@ body {
 	background-color: @background-color;
 }
 
+#outer, footer {
+	border-radius: @spacing / 4;
+	padding: @spacing;
+}
 
 footer {
 	background-color: @background-color;
 	color: @color;
-	padding: @spacing;
 	text-align: center;
 	width: 100%;
 }
@@ -32,9 +35,7 @@ footer {
 #outer {
 	background-color: @color;
 	margin: @spacing auto;
-	padding: @spacing;
 	width: @page-width;
-	border-radius: @spacing / 4;
 }
 
 img { max-width: @page-width; padding: @spacing; }
@@ -51,7 +52,6 @@ img { max-width: @page-width; padding: @spacing; }
 	.nav > li > a:hover {
 		color: @yellow;
 	}
-
 	.navbar-header a {
 		color: @color;
 	}
@@ -60,14 +60,18 @@ img { max-width: @page-width; padding: @spacing; }
 	}
 }
 
+small {
+	font-size: @font-size / 2;
+}
+
 ul.slideshow {
-    position: relative;
-    width: 706px;
-    height: 316px;
-    list-style: none;
-    li {
-        position: absolute;
-    }
+	position: relative;
+	width: 706px;
+	height: 316px;
+	list-style: none;
+	li {
+		position: absolute;
+	}
 }
 
 // vim: noet ts=4 sw=4 tw=79 ft=css

@@ -52,7 +52,12 @@
         </div><!--/.container-fluid -->
       </div><!--/.navbar -->
       <div id="content">
+       <div class="post">
+        <h1>{{ page.title }}</h1>
         {{ content }}
+        <div class="date"><time>{{ page.date | date_to_string }}</time></div>
+        <p><small><a href="{{ post.url }}">Permalink to this item.</a></small>
+       </div>
       </div>
       <footer>
         <p><a href="index.html">Home</a>
