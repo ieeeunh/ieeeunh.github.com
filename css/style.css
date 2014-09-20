@@ -36,5 +36,18 @@ img {
   text-align: right;
 }
 .navbar {
-  background-color: #ffffea;
+  background-color: #003366;
+  color: #ffffea;
+}
+.navbar .nav > li > a {
+  color: #ffffea;
+}
+.navbar .nav > li > a:hover {
+  color: #ffcc33;
+}
+.navbar .navbar-header a {
+  color: #ffffea;
+}
+.navbar .navbar-header a:hover {
+  color: #ffcc33;
 }
