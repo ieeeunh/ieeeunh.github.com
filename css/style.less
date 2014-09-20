@@ -8,6 +8,8 @@
 @page-width: 75.398%;
 // UNH blue
 @background-color: #036;
+// UNH yellow
+@yellow: #FFCC33;
 // bright yellow
 @color: #ffffea;
 
@@ -40,6 +42,22 @@ img { max-width: @page-width; padding: @spacing; }
 .center { text-align: center; }
 .left { text-align: left; }
 .right { text-align: right; }
-.navbar { background-color: @color; }
+.navbar {
+	background-color: @background-color;
+	color: @color;
+	.nav > li > a {
+		color: @color;
+	}
+	.nav > li > a:hover {
+		color: @yellow;
+	}
+
+	.navbar-header a {
+		color: @color;
+	}
+	.navbar-header a:hover {
+		color: @yellow;
+	}
+}
 
 // vim: noet ts=4 sw=4 tw=79 ft=css
