@@ -51,3 +51,12 @@ img {
 .navbar .navbar-header a:hover {
   color: #ffcc33;
 }
+ul.slideshow {
+  position: relative;
+  width: 706px;
+  height: 316px;
+  list-style: none;
+}
+ul.slideshow li {
+  position: absolute;
+}
