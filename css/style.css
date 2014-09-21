@@ -1,12 +1,12 @@
 body {
-  background-color: #003366;
+  background-color: #002e56;
   font-size: 14pt;
   line-height: 1.414em;
   margin: 0 auto;
 }
 footer,
 .navbar {
-  background-color: #003366;
+  background-color: #002e56;
   color: #ffffea;
 }
 footer {
@@ -14,10 +14,11 @@ footer {
   width: 100%;
 }
 hr {
-  background-color: #003366;
-  color: #003366;
+  background-color: #002e56;
+  color: #002e56;
   height: 2px;
   width: 75.398%;
+  margin: 1.414em 1.414em 1.414em 0;
 }
 img {
   max-width: 75.398%;
@@ -30,13 +31,13 @@ small {
   color: #ffffea;
 }
 .navbar .navbar-header a:hover {
-  color: #ffcc33;
+  color: #efc425;
 }
 .navbar .nav > li > a {
   color: #ffffea;
 }
 .navbar .nav > li > a:hover {
-  color: #ffcc33;
+  color: #efc425;
 }
 .slideshow {
   list-style: none;
